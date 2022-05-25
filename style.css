@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('./img/Background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+  background: transparent;
+  color: white;
+}
+
+main {
+  position: absolute;
+  bottom: 12%; right: 50%;
+  transform: translate(50%,50%);
+  background: transparent;
+  color: white;
+
+  text-align: center;
+
+  width: 400px;
+}
+
+input[type=email] {
+  background-color: rgb(10, 10, 10);
+  color: #fff;
+  font-size: 16px;
+
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  margin-right: -5px;
+  border: none;
+
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+  width: 300px;
+
+  transition: all 100ms;
+}
+
+input[type=email]:hover, input[type=email]:active {
+  background-color: rgb(15, 15, 15);
+}
+
+input[type=submit] {
+  background-color: rgb(25, 25, 25);
+  color: #fff;
+  font-size: 16px;
+
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  border: none;
+
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  transition: all 100ms;
+}
+
+input[type=submit]:hover, input[type=submit]:active {
+  background-color: rgb(35, 35, 35);
+}
