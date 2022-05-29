@@ -1,8 +1,7 @@
-##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pybxx2g56ciu/public_html/
+    - export DEPLOYPATH=/home/zki9n9xpw92b/public_html/
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
